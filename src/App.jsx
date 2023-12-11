@@ -12,8 +12,12 @@ function App() {
   return (
     <>
 
-      <div className='header w-[100%] h-[80vh] border-[2px]  '>
-       <h1>mekrlmrkkergmdkg,r gkrg rtkg rkmgr kr</h1>
+      {/* card1 */}
+      <div className='header w-[100%] h-[80vh] border-solid  border-[2px] border-red-600  '>
+
+        {/* card1_header */}
+        <div></div>
+
       </div>
 
     </>
