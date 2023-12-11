@@ -27,12 +27,12 @@ function App() {
         {/* card1_cards */}
         <div className='flex'>
           {/* card1_left */}
-          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700'>
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700 flex justify-center items-center flex-col'>
             <h1 className='font-mono text-[45px] text-white text-bold'>Why stay hungry when you can order from DialEats</h1>
-            <p className='text-white'>Download the bella onoje’s food app now on</p>
-            <div>
-             <div></div>
-            </div>
+            <p className='text-[#F6F6F6]'>Download the bella onoje’s food app now on</p>
+            <button className='w-[250px] h-[10vh]'>
+
+            </button>
           </div>
 
           {/* card1_right */}
