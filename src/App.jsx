@@ -21,6 +21,16 @@ function App() {
           <p className='text-white'>Privacy Policy</p>
         </div>
 
+
+        {/* card1_cards */}
+        <div className='flex'>
+          {/* card1_left */}
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700'></div>
+
+          {/* card1_right */}
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700'></div>
+        </div>
+
       </div>
 
     </>
