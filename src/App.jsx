@@ -166,9 +166,40 @@ function App() {
       </div>
 
       {/* card6____*/}
-      <div className='card6 w-[100%] h-[60vh]'>
+      <div className='card6 w-[100%] h-[60vh] flex justify-center items-center'>
+        <div className='w-[50%] h-[60vh]  flex flex-col justify-evenly items-center'>
+          <h1 className='text-white font-bold text-[40px]'>Contac Us</h1>
+          <p className='text-[#FFFFFF] text-[18px] font-serif'>Available on your favorite store. Start your premium experience now</p>
 
+          <div className='flex'>
+            <input placeholder='Email' className='w-[280px] h-[6vh] bg-transparent border-[2px] border-solid border-white p-[4px]' />
+            <button className='w-[150px] h-[6vh] bg-red-700 text-white rounded-[18px] ml-[5px]'>Contact Me</button>
+          </div>
+
+
+          <div className='btns flex ml-[15px]'>
+            <button className='w-[250px] h-[9vh] text-[white] border-solid border-[2px] border-red-800 flex items-center justify-around bg-red-700 rounded-[30px] m-[5px]'>
+              <img src={apple} />
+              <div>
+                <p>Download on the</p>
+                <h3 className='font-bold text-[20px]'>App Store</h3>
+              </div>
+            </button>
+
+            <button className='w-[250px] h-[9vh] text-[white] border-solid border-[2px] border-white-800 flex items-center justify-around bg-transparent rounded-[30px] m-[5px]'>
+              <img src={playmarket} />
+              <div>
+                <p>Andriod App On</p>
+                <h3 className='font-bold text-[20px]'>Google Play</h3>
+              </div>
+            </button>
+          </div>
+
+        </div>
       </div>
+
+      {/* card7______ */}
+
 
 
     </>
