@@ -18,6 +18,7 @@ import card4 from '../src/assets/card4.png'
 import card5Img1 from '../src/assets/card5Img1.png'
 import card5Img2 from '../src/assets/card5Img2.png'
 import card5Img3 from '../src/assets/card5Img3.png'
+import card8 from '../src/assets/card8.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -199,13 +200,56 @@ function App() {
       </div>
 
       {/* card7______ */}
-      <div className='w-[85%] h-[80vh] border-[2px] border-solid border-red-600 m-auto'>
+      <div className='w-[85%] h-[80vh]  m-auto'>
         <h1 className='font-bold text-[36px] text-center'>FAQ</h1>
-        <div className='w-[100%] h-[70vh] border-solid border-[4px] border-blue-500 flex flex-wrap justify-between'>
-          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
-          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
-          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
-          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
+        <div className='w-[100%] h-[70vh]  flex flex-wrap justify-between'>
+       
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
+            <img src={card8} className='m-[10px]' />
+            <div className='w-[100%] h-[32vh] flex flex-col justify-evenly'>
+              <h1 className='font-bold text-[25px]'>How to add a booking Source</h1>
+              <p className='text-[#737373]'>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the
+                1500s,</p>
+                <h3 className='text-red-500 font-bold'>READ MORE</h3>
+            </div>
+          </div>
+
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
+            <img src={card8} className='m-[10px]' />
+            <div className='w-[100%] h-[32vh] flex flex-col justify-evenly'>
+              <h1 className='font-bold text-[25px]'>How to add a booking Source</h1>
+              <p className='text-[#737373]'>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the
+                1500s,</p>
+              <h3 className='text-red-500 font-bold'>READ MORE</h3>
+            </div>
+          </div>
+
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
+            <img src={card8} className='m-[10px]' />
+            <div className='w-[100%] h-[32vh] flex flex-col justify-evenly'>
+              <h1 className='font-bold text-[25px]'>How to add a booking Source</h1>
+              <p className='text-[#737373]'>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the
+                1500s,</p>
+              <h3 className='text-red-500 font-bold'>READ MORE</h3>
+            </div>
+          </div>
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
+            <img src={card8} className='m-[10px]' />
+            <div className='w-[100%] h-[32vh] flex flex-col justify-evenly'>
+              <h1 className='font-bold text-[25px]'>How to add a booking Source</h1>
+              <p className='text-[#737373]'>Lorem Ipsum is simply dummy text of the printing
+                and typesetting industry. Lorem Ipsum has been
+                the industry's standard dummy text ever since the
+                1500s,</p>
+              <h3 className='text-red-500 font-bold'>READ MORE</h3>
+            </div>
+          </div>
         </div>
       </div>
 
