@@ -19,6 +19,8 @@ import card5Img1 from '../src/assets/card5Img1.png'
 import card5Img2 from '../src/assets/card5Img2.png'
 import card5Img3 from '../src/assets/card5Img3.png'
 import card8 from '../src/assets/card8.png'
+import logotipFooter from '../src/assets/logotipfooter.png'
+import iconsfooter from '../src/assets/iconsfooter.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -203,7 +205,7 @@ function App() {
       <div className='w-[85%] h-[80vh]  m-auto'>
         <h1 className='font-bold text-[36px] text-center'>FAQ</h1>
         <div className='w-[100%] h-[70vh]  flex flex-wrap justify-between'>
-       
+
           <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
             <img src={card8} className='m-[10px]' />
             <div className='w-[100%] h-[32vh] flex flex-col justify-evenly'>
@@ -212,7 +214,7 @@ function App() {
                 and typesetting industry. Lorem Ipsum has been
                 the industry's standard dummy text ever since the
                 1500s,</p>
-                <h3 className='text-red-500 font-bold'>READ MORE</h3>
+              <h3 className='text-red-500 font-bold'>READ MORE</h3>
             </div>
           </div>
 
@@ -251,6 +253,13 @@ function App() {
             </div>
           </div>
         </div>
+      </div>
+
+      {/* footer */}
+      <div className='w-[100%] h-[15vh] bg-[#252B42] flex justify-between items-center'>
+        <img src={logotipFooter} className='ml-[18px]' />
+        <h3 className='text-white'>Copywright 2021 Dialeats.com </h3>
+        <img src={iconsfooter} className='mr-[18px]' />
       </div>
 
 
