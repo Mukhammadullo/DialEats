@@ -15,6 +15,9 @@ import card2_inner3 from '../src/assets/i (3).png'
 import card2_inner4 from '../src/assets/i (4).png'
 import card3 from '../src/assets/card3.png'
 import card4 from '../src/assets/card4.png'
+import card5Img1 from '../src/assets/card5Img1.png'
+import card5Img2 from '../src/assets/card5Img2.png'
+import card5Img3 from '../src/assets/card5Img3.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -124,15 +127,46 @@ function App() {
             </div>
           </div>
         </div>
-     
-     
-     
-     
-     
-     
+
+
+
+        {/* card5___________ */}
+        <div className='w-[85%] h-[78vh]'>
+          <h1 className='text-center font-bold text-[30px] m-[10px]'>What others are saying</h1>
+          <div className='flex justify-between'>
+
+            <div className='w-[30%] h-[65vh] border-[2px] border-solid border-grey-600 flex flex-col justify-evenly items-center '>
+              <p className='text-[#737373] text-[20px]  p-[25px] leading-8'>
+                Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+              </p>
+              <img src={card5Img1} />
+              <h1 className='text-red-500 font-bold text-[26px]'>Happy User</h1>
+              <p className='text-[#455880] text-[18px] font-bold'>tempy.club</p>
+            </div>
+
+            <div className='w-[30%] h-[65vh] border-[2px] border-solid border-grey-600 flex flex-col justify-evenly items-center'>
+              <p className='text-[#737373] text-[20px]  p-[25px] leading-8'>
+                Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+              </p>
+              <img src={card5Img2} />
+              <h1 className='text-red-500 font-bold text-[26px]'>Happy User</h1>
+              <p className='text-[#455880] text-[18px] font-bold'>tempy.club</p>
+            </div>
+
+            <div className='w-[30%] h-[65vh] border-[2px] border-solid border-grey-600 flex flex-col justify-evenly items-center'>
+              <p className='text-[#737373] text-[20px]  p-[25px] leading-8'>
+                Completely beautiful website and amazing support! This is my second website from this author and I love both of the sites so much and she has helped me so well when I needed it!
+              </p>
+              <img src={card5Img3} />
+              <h1 className='text-red-500 font-bold text-[26px]'>Happy User</h1>
+              <p className='text-[#455880] text-[18px] font-bold'>tempy.club</p>
+            </div>
+          </div>
+        </div>
       </div>
 
-
+      {/* card6____*/}
+      <div className='w-[100%] h-[40vh]'></div>
 
 
     </>
