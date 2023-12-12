@@ -13,6 +13,8 @@ import card2_inner1 from '../src/assets/i (1).png'
 import card2_inner2 from '../src/assets/i (2).png'
 import card2_inner3 from '../src/assets/i (3).png'
 import card2_inner4 from '../src/assets/i (4).png'
+import card3 from '../src/assets/card3.png'
+import card4 from '../src/assets/card4.png'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -69,17 +71,60 @@ function App() {
       </div>
 
 
-      {/* card2_________ */}
-      <div className='w-[100%] h-[40vh] mt-[110px] flex justify-around items-center'>
-        <div className='card2_inner1 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Harere</p></div>
-        <div className='card2_inner2 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Buluwayo</p></div>
-        <div className='card2_inner3 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Mature</p></div>
-        <div className='card2_inner4 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Chinhoyi</p></div>
+      <div className='container flex flex-col items-center'>
+        {/* card2_________ */}
+        <div className='w-[95%] h-[40vh] mt-[110px] flex justify-around items-center'>
+          <div className='card2_inner1 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Harere</p></div>
+          <div className='card2_inner2 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Buluwayo</p></div>
+          <div className='card2_inner3 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Mature</p></div>
+          <div className='card2_inner4 w-[22%] h-[35vh] rounded-[12px] flex flex-col justify-end items-center'><p className='text-white'>Chinhoyi</p></div>
+        </div>
+
+
+
+        {/* card3__________ */}
+
+        <div className='w-[95%] h-[94vh]  mt-[30px]'>
+          <h1 className='text-center font-bold text-[50px] m-[10px]'>How app the works</h1>
+
+          <div className='flex'>
+            <div className='w-[50%] h-[80vh]  flex justify-center items-center'>
+              <img src={card3} />
+            </div>
+
+            <div className='w-[50%] h-[80vh]  flex flex-col justify-center'>
+              <h1 className=' text-red-500 font-bold m-[20px] text-[30px]'>Create an account</h1>
+              <h1 className='text-[30px] font-bold m-[20px]'>Create/login to an existing <br />
+                account to get started</h1>
+              <p className='text-[#737373] ml-[30px]'>An account is created with your email  <br />
+                and a desired password</p>
+            </div>
+
+          </div>
+
+        </div>
+
+        {/* card4__________ */}
+
+        <div className='w-[95%] h-[85vh] mt-[30px]'>
+
+          <div className='flex justify-center'>
+
+
+            <div className='w-[40%] h-[80vh]  flex flex-col justify-center'>
+              <h1 className=' text-red-500 font-bold m-[20px] text-[30px]'>Explore varieties</h1>
+              <h1 className='text-[30px] font-bold m-[20px]'>Shop for your favorites <br />
+                meal as e dey hot.</h1>
+              <p className='text-[#737373] ml-[30px]'>An account is created with your email  <br />
+                and a desired password</p>
+            </div>
+
+            <div className='w-[40%] h-[80vh] flex justify-center items-center'>
+              <img src={card4} />
+            </div>
+          </div>
+        </div>
       </div>
-
-
-      {/* card3__________ */}
-
 
     </>
   )
