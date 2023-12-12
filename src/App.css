@@ -1,3 +1,22 @@
 .header {
     background-image: url('/src/assets/img1.png');
 }
+
+
+
+.card2_inner1 {
+    background-image: url('/src/assets/i\ \(1\).png');
+    background-size: cover;
+}
+.card2_inner2 {
+    background-image: url('/src/assets/i\ \(2\).png');
+    background-size: cover;
+}
+.card2_inner3 {
+    background-image: url('/src/assets/i\ \(3\).png');
+    background-size: cover;
+}
+.card2_inner4 {
+    background-image: url('/src/assets/i\ \(4\).png');
+    background-size: cover;
+}
