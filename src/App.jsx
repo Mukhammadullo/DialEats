@@ -199,7 +199,15 @@ function App() {
       </div>
 
       {/* card7______ */}
-
+      <div className='w-[85%] h-[80vh] border-[2px] border-solid border-red-600 m-auto'>
+        <h1 className='font-bold text-[36px] text-center'>FAQ</h1>
+        <div className='w-[100%] h-[70vh] border-solid border-[4px] border-blue-500 flex flex-wrap justify-between'>
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
+          <div className='w-[45%] h-[32vh] border-solid border-[2px] border-red-400'></div>
+        </div>
+      </div>
 
 
     </>
