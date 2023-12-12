@@ -6,6 +6,7 @@ import './App.css'
 import img1 from '../src/assets/img1.png'
 import logotip from '../src/assets/logotip.png'
 import apple from '../src/assets/apple 1.png'
+import playmarket from '../src/assets/google-play 1.png'
 
 
 function App() {
@@ -27,12 +28,28 @@ function App() {
         {/* card1_cards */}
         <div className='flex'>
           {/* card1_left */}
-          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700 flex justify-center items-center flex-col'>
-            <h1 className='font-mono text-[45px] text-white text-bold'>Why stay hungry when you can order from DialEats</h1>
-            <p className='text-[#F6F6F6]'>Download the bella onoje’s food app now on</p>
-            <button className='w-[250px] h-[10vh]'>
-
-            </button>
+          <div className='w-[50%] h-[70vh] border-solid border-[2px] border-red-700 flex justify-center  flex-col'>
+            <h1 className='text-[45px] text-white font-bold ml-[15px]'>Why stay hungry when you can order from DialEats</h1>
+            <p className='text-[#F6F6F6] m-[15px]'>Download the bella onoje’s food app now on</p>
+          
+          <div className='btns flex ml-[15px]'>
+            <button className='w-[250px] h-[9vh] text-[white] border-solid border-[2px] border-red-800 flex items-center justify-around bg-red-700 rounded-[30px] m-[5px]'>
+              <img src={apple} />
+              <div>
+                <p>Download on the</p>
+                <h3 className='font-bold text-[20px]'>App Store</h3>
+              </div>
+              </button>
+          
+            <button className='w-[250px] h-[9vh] text-[white] border-solid border-[2px] border-white-800 flex items-center justify-around bg-transparent rounded-[30px] m-[5px]'>
+              <img src={playmarket} />
+              <div>
+                  <p>Andriod App On</p>
+                  <h3>Google Play</h3>
+              </div>
+              </button>
+            </div>
+          
           </div>
 
           {/* card1_right */}
