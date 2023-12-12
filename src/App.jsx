@@ -203,7 +203,7 @@ function App() {
 
       {/* card7______ */}
       <div className='w-[85%] h-[80vh]  m-auto'>
-        <h1 className='font-bold text-[36px] text-center'>FAQ</h1>
+        <h1 className='font-bold text-[36px] text-center m-[20px]'>FAQ</h1>
         <div className='w-[100%] h-[70vh]  flex flex-wrap justify-between'>
 
           <div className='w-[45%] h-[32vh] border-solid border-[2px] border-grey-400 flex  items-start'>
