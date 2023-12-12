@@ -166,7 +166,9 @@ function App() {
       </div>
 
       {/* card6____*/}
-      <div className='w-[100%] h-[40vh]'></div>
+      <div className='card6 w-[100%] h-[60vh]'>
+
+      </div>
 
 
     </>
