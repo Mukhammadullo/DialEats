@@ -1,9 +1,6 @@
 .header {
     background-image: url('/src/assets/img1.png');
 }
-
-
-
 .card2_inner1 {
     background-image: url('/src/assets/i\ \(1\).png');
     background-size: cover;
@@ -20,8 +17,6 @@
     background-image: url('/src/assets/i\ \(4\).png');
     background-size: cover;
 }
-
-
 /* card6 */
 .card6{
     background-image: url('/src/assets/card6.png');

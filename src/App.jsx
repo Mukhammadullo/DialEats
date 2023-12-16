@@ -1,6 +1,4 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
 
 import img1 from '../src/assets/img1.png'
@@ -23,9 +21,7 @@ import logotipFooter from '../src/assets/logotipfooter.png'
 import iconsfooter from '../src/assets/iconsfooter.png'
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  return (
+   return (
     <>
 
       {/* card1 */}
@@ -34,7 +30,7 @@ function App() {
         {/* card1_header */}
         <div className='w-[100%] h-[10vh]  flex justify-between  items-center' >
           <img src={logotip} className='w-[200px] ml-[10px]' />
-          <p className='text-white mr-[10px]'>Privacy Policy</p>
+          <p className=' mr-[10px] text-white'>Privacy Policy</p>
         </div>
 
 
