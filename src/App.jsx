@@ -1,6 +1,5 @@
 
 import './App.css'
-
 import img1 from '../src/assets/img1.png'
 import logotip from '../src/assets/logotip.png'
 import apple from '../src/assets/apple 1.png'
